@@ -5,10 +5,14 @@ pydantic-settings
 sqlalchemy
 psycopg2-binary
 python-jose[cryptography]
-passlib[bcrypt]
+bcrypt
 pandas
 numpy
 nltk
 scikit-learn
 joblib
 pytest
+alembic
+httpx
+email-validator
+python-multipart
