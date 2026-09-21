@@ -1,0 +1,53 @@
+{
+    "selected_model": "Combined Features + LogisticRegression",
+    "tfidf_config": {
+        "analyzer": "word",
+        "ngram_range": [
+            1,
+            2
+        ],
+        "max_features": 5000,
+        "min_df": 5,
+        "sublinear_tf": true
+    },
+    "class_prior_config": null,
+    "selected_threshold": 0.4,
+    "validation_metrics": {
+        "accuracy": 0.7771428571428571,
+        "f1_macro": 0.7221047372054055,
+        "f1_deceptive": 0.8457770170571918,
+        "f1_genuine": 0.5984324573536192,
+        "threshold": 0.4
+    },
+    "final_test_metrics": {
+        "accuracy": 0.778406296114117,
+        "deceptive": {
+            "precision": 0.8428796046720575,
+            "recall": 0.8519695765694176,
+            "f1": 0.8474002145316999
+        },
+        "genuine": {
+            "precision": 0.6041287188828173,
+            "recall": 0.5871938624963116,
+            "f1": 0.5955409247344007
+        },
+        "f1_macro": 0.7214705696330503,
+        "roc_auc": 0.8094727350555297,
+        "false_positive_rate": 0.4128061375036884,
+        "false_negative_rate": 0.14803042343058237,
+        "confusion_matrix": [
+            [
+                1990,
+                1399
+            ],
+            [
+                1304,
+                7505
+            ]
+        ]
+    },
+    "train_size": 56358,
+    "val_size": 11725,
+    "test_size": 12198,
+    "features": "review_text, review_rating, number_of_helpful, number_of_photos"
+}

@@ -1,0 +1,23 @@
+{
+    "ambiguous_count": 0,
+    "total_labeled_count": 80281,
+    "deceptive_count": 57667,
+    "genuine_count": 22614,
+    "deceptive_pct": 71.83144205976507,
+    "genuine_pct": 28.168557940234923,
+    "unique_reviewers_total": 36764,
+    "reviews_per_reviewer_avg": 2.1836851267544337,
+    "train_size": 56358,
+    "val_size": 11725,
+    "test_size": 12198,
+    "train_deceptive_pct": 71.83895808935732,
+    "val_deceptive_pct": 71.39445628997868,
+    "test_deceptive_pct": 72.2167568453845,
+    "train_unique_reviewers": 25734,
+    "val_unique_reviewers": 5514,
+    "test_unique_reviewers": 5516,
+    "overlap_train_val": 0,
+    "overlap_train_test": 0,
+    "overlap_val_test": 0,
+    "duplicate_texts": 1091
+}
